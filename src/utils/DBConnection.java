@@ -17,7 +17,7 @@ public class DBConnection {
 
             // 3. Tài khoản đăng nhập PostgreSQL
             String user = "postgres";
-            String password = "m01668516412"; // Thay mật khẩu của bạn ở đây
+            String password = "m01668516412";
 
             // 4. Thực hiện kết nối
             connection = DriverManager.getConnection(url, user, password);
